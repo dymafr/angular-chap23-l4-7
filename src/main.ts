@@ -35,6 +35,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { CdkTableModule } from '@angular/cdk/table';
 import { DatepickerEvenementExemple } from './app/datepicker-evenement-exemple';
+import 'zone.js'; // pour Stackblitz uniquement
 
 @NgModule({
   exports: [
